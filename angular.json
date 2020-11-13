@@ -125,16 +125,17 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-
-            "baseHref":"https://krishnanath.github.io/",
-            "repo":"https://github.com/krishnanath/krishnanath.github.io",
-            "name":"Krishnanth",
-            "email":"malykrishna@gmail.com"
-
+            "baseHref": "https://krishnanath.github.io/",
+            "repo": "https://github.com/krishnanath/krishnanath.github.io",
+            "name": "Krishnanth",
+            "email": "malykrishna@gmail.com"
           }
         }
       }
     }
   },
-  "defaultProject": "github"
+  "defaultProject": "github",
+  "cli": {
+    "analytics": "a8822c0a-90c1-4db2-a2e1-a0f5ae7ec213"
+  }
 }

@@ -16,20 +16,25 @@
   p{margin:0}
 
   .center {
+    //   height: 77px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
       text-align: center;
-      margin-top: 250px;
-    //   color: #00FF00;
-    background:rgba(0, 0, 0, 0.903);
-      color: #fff;
+    //   margin-top: 250px;
+      color: #00FF00;
+    background:rgba(0, 0, 0, 0.966);
+    //   color: #fff;
       z-index: 999 !important;
       text-transform: uppercase;
       font-size: 33px;
       font-weight: 900;
-      p{ margin-top: -44px;
-          text-align: right;
-          font-size: 17px;
-      }
+    //   span{ 
+    //     //   margin-top: -44px;
+    //       text-align: right;
+    //       font-size: 17px;
+    //   }
       h1{
-          padding-top: 22px;
+        //   padding-top: 22px;
       }
   }

@@ -2,7 +2,8 @@
     font-family: 'Source Code Pro';
     font-style: normal;
     font-weight: 400;
-    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url('http://themes.googleusercontent.com/static/fonts/sourcecodepro/v4/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff') format('woff');
+    // src: local('Source Code Pro'), local('SourceCodePro-Regular'), url('http://themes.googleusercontent.com/static/fonts/sourcecodepro/v4/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff') format('woff');
+    src:url('./assets/NexaLight.otf');
   }
   
 
@@ -10,9 +11,9 @@
 body {
     font-family: Source Code Pro;
     // background:rgba(0, 0, 0, 0.993);
-    // color: #00FF00;
+    color: #00FF00;
  background: rgba(0, 0, 0, 0.973);
-color: #ffffff;
+// color: #ffffff;
 
     margin:0;
     font-size: 13px;
